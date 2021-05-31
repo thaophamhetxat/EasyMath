@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EasyMath</title>
+    <link rel="stylesheet" href="EasyMath.css">
+    <script src="EasyMath.js"></script>
+
+
+</head>
+<body>
+
+<div id="main">
+    <h1>Easy Math</h1>
+    <p id="score">Score: 0</p>
+    <p id="level">Level: 1</p>
+    <h5 id="time"></h5>
+    <div id="display">
+    </div>
+    <div id="result"></div>
+    <div id="clickTF">
+        <button type="button" id="true" onclick="Y(true)">TRUE</button>
+        <button type="button" id="false" onclick="Y(false)">FALSE</button>
+    </div>
+</div>
+
+<audio PRELOAD="auto">
+    <source src="./audio/nhacnen.mp3">
+</audio>
+<script type="text/javascript">
+    let gameTF = new GameTF();
+    gameTF.mathdisplay();
+
+
+
+    let timerun = 15;
+    function timetolive(){
+        timerun --;
+        if (timerun !=0){
+            if(timerun<=10){
+                document.getElementById('time').style.color='red'
+            }
+            document.getElementById('time').innerHTML=timerun;
+            setTimeout("timetolive()",1000);
+        }else {
+            document.getElementById('time').innerHTML='hết giờ';
+            alert('game over');
+            location.reload();
+        }
+
+    }
+    timetolive();
+    function Y(chon) {
+        gameTF.check(chon);
+
+    }
+
+</script>
+</body>
+</html>
