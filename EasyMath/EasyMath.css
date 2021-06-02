@@ -2,7 +2,7 @@ body {
     background: cornflowerblue;
     height: 100%;
     background-size: 1340px;
-    background-image: url("./images/body01.png");
+    background-image: url("../images/body01.png");
     background-repeat: no-repeat;
 }
 
@@ -80,7 +80,7 @@ button {
     height: 34%;
     background-size: 420px;
     font-family: "Comic Sans MS";
-    background-image: url("./images/bang.PNG");
+    background-image: url("../images/bang.PNG");
     background-repeat: no-repeat;
     font-size: 70px;
     text-align: center;
@@ -91,7 +91,7 @@ button {
     font-size: 50px;
     text-align: center;
     font-family: "Comic Sans MS";
-    background-image: url("./images/32PNG.PNG");
+    background-image: url("../images/32PNG.PNG");
     background-size: 427px;
     background-repeat: no-repeat;
     background-color: wheat;
