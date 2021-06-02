@@ -2,7 +2,8 @@ let sound1 = new Audio("./audio/canhcao.mp3");
 let sound2 = new Audio("./audio/votay.mpeg");
 let sound3 = new Audio("./audio/correct.mp3");
 let sound4 = new Audio("./audio/nhacnen02.mp3");
-let Tostart = confirm('luật chơi: Bạn có 15 giây để trả lời các câu hỏi!');
+let Tostart = confirm('Luật chơi: Bạn có 15 giây để chọn đáp án đúng để trả lời các câu hỏi ! ' +
+    ' Trả lời đúng thì tăng thêm 1 giây ');
 if (Tostart) {
     sound4.play();
     alert('START!');
