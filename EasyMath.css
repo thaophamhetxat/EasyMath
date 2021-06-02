@@ -1,89 +1,103 @@
-body{
+body {
     background: cornflowerblue;
     height: 100%;
-    background-image: url("./images/body.jpg");
+    background-size: 1340px;
+    background-image: url("./images/body01.png");
     background-repeat: no-repeat;
-    background-size:1340px;
 }
-#main{
-    width: 440px;
-    height: 600px;
-    background-color: white ;
+
+#main {
+    width: 420px;
+    height: 570px;
+    background-color: white;
     margin: 0 auto;
-    background-image: url("./images/bd.png");
 }
-h1{
+
+h1 {
     background-color: coral;
     text-align: center;
     margin: 0 auto;
     font-size: 40px;
     font-family: "Comic Sans MS";
 }
-p{
+
+p {
     width: 50%;
     float: left;
     box-sizing: border-box;
     height: 10%;
     margin: 0 0;
 }
-#score{
+
+#score {
     text-align: left;
     padding-right: 15px;
     background-color: wheat;
     font-size: 40px;
     font-family: "Comic Sans MS";
 }
-#level{
+
+#level {
     text-align: right;
     padding-right: 10px;
     background-color: wheat;
     font-size: 40px;
     font-family: "Comic Sans MS";
 }
-#time{
-font-size: 20px;
-font-family: "Comic Sans MS";
+
+#time {
+    font-size: 20px;
+    font-family: "Comic Sans MS";
 }
-#clickTF{
+
+#clickTF {
     float: left;
     width: 100%;
-    height: 20%;
+    height: 22%;
     background-color: sandybrown;
     text-align: center;
 }
-button{
+
+button {
     width: 150px;
-    height:60px;
+    height: 70px;
     margin: 20px;
     font-size: 40px;
     font-weight: bold;
 }
-#true{
+
+#true {
     color: olivedrab;
     font-family: "Comic Sans MS";
 }
-#false{
+
+#false {
     color: red;
     font-family: "Comic Sans MS";
 }
-#display{
-    height: 36%;
-    background-color: powderblue;
-    background-image: url("./images/01.png");
-    background-repeat: no-repeat;
-    background-size: 445px;
+
+#display {
+    height: 34%;
+    background-size: 420px;
     font-family: "Comic Sans MS";
+    background-image: url("./images/bang.PNG");
+    background-repeat: no-repeat;
     font-size: 70px;
     text-align: center;
-    padding-top: 20%;
+    padding-top: 10%;
 }
-#result{
+
+#result {
     font-size: 50px;
     text-align: center;
     font-family: "Comic Sans MS";
-    background: sandybrown;
+    background-image: url("./images/32PNG.PNG");
+    background-size: 427px;
+    background-repeat: no-repeat;
+    background-color: wheat;
 }
-h5{
+
+h5 {
     background: blanchedalmond;
     text-align: center;
     margin: 0 auto;
