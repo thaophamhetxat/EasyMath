@@ -3,7 +3,7 @@ let sound2 = new Audio("./audio/votay.mpeg");
 let sound3 = new Audio("./audio/correct.mp3");
 let sound4 = new Audio("./audio/nhacnen02.mp3");
 let Tostart = confirm('Luật chơi: Bạn có 15 giây để chọn đáp án đúng để trả lời các câu hỏi ! ' +
-    ' Trả lời đúng thì tăng thêm 1 giây ');
+    ' Trả lời đúng thì tăng thêm 2 giây ');
 if (Tostart) {
     sound4.play();
     alert('START!');
@@ -85,7 +85,7 @@ class GameTF {
             document.getElementById('level').innerHTML = 'Level: ' + this.level;
             sound3.play();
             this.mathdisplay();
-            timerun = timerun + 1;
+            timerun = timerun + 2;
         }
     }
 

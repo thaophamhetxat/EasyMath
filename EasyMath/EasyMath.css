@@ -78,9 +78,9 @@ button {
 
 #display {
     height: 34%;
-    background-size: 420px;
+    background-size: 424px;
     font-family: "Comic Sans MS";
-    background-image: url("../images/bang.PNG");
+    background-image: url("../images/bang.png");
     background-repeat: no-repeat;
     font-size: 70px;
     text-align: center;
@@ -91,8 +91,8 @@ button {
     font-size: 50px;
     text-align: center;
     font-family: "Comic Sans MS";
-    background-image: url("../images/32PNG.PNG");
-    background-size: 427px;
+    background-image: url("../images/result.PNG");
+    background-size: 424px;
     background-repeat: no-repeat;
     background-color: wheat;
 }
